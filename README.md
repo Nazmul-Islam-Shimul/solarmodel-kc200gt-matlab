@@ -2,7 +2,7 @@
 
 **Module:** Kyocera KC200GT Polycrystalline (200 W)  
 **Method:** Single-diode equivalent circuit, solved with Newton-Raphson iteration  
-**Author:** Nazmul Islam Shimul — Petroleum & Mining Engineering, JUST, Bangladesh  
+**Author:** Nazmul Islam Shimul, Petroleum & Mining Engineering, JUST, Bangladesh  
 **Reference:** Villalva et al. (2009), *IEEE Transactions on Power Electronics*, 24(5), pp. 1198–1208. DOI: [10.1109/TPEL.2009.2017814](https://doi.org/10.1109/TPEL.2009.2017814)
 
 ---
