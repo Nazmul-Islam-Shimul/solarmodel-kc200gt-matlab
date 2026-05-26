@@ -19,9 +19,9 @@ function plot_temp_family(p)
     all_Pmax = zeros(1, length(T_celsius));
     mpp_idx  = zeros(1, length(T_celsius));
 
-    % =========================================================
+  
     % 1. COMPUTATION PHASE (Runs Newton-Raphson only 2,500 times)
-    % =========================================================
+
     for ti = 1:length(T_celsius)
         T_kelvin = T_celsius(ti) + 273.15;
         
@@ -48,9 +48,9 @@ function plot_temp_family(p)
         [all_Pmax(ti), mpp_idx(ti)] = max(P_all{ti});
     end
 
-    % =========================================================
+  
     % 2. VISUALIZATION PHASE (No physics equations, pure plotting)
-    % =========================================================
+ 
     colors = [0.20 0.60 1.00;   
               0.93 0.69 0.13;   
               0.85 0.33 0.10;   
