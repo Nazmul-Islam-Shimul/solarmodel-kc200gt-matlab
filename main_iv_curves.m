@@ -1,9 +1,9 @@
-% =========================================================
+
 % Project 1: PV Module I-V & P-V Curve Simulation
 % Single-Diode Model — Newton-Raphson Solution
 % Module: KC200GT Polycrystalline (200 W)
-% Author: Nazmul Islam Shimul, Petroleum & Mining Engineering, JUST
-% =========================================================
+
+
 
 clc; clear; close all;
 
@@ -16,15 +16,15 @@ if ~exist('figures','dir'), mkdir('figures'); end
 fprintf('=== PV Module Simulation ===\n');
 fprintf('Module: KC200GT | Ns=%d cells | Prated=%.0f W\n\n', p.Ns, p.Pmax);
 
-% --- Run irradiance family ---
+% Run irradiance family ---
 fprintf('Plotting I-V/P-V irradiance sweep...\n');
 plot_iv_family(p);
 
-% --- Run temperature family ---
+% Run temperature family ---
 fprintf('Plotting I-V/P-V temperature sweep...\n');
 plot_temp_family(p);
 
-% --- Print key parameters at STC ---
+% Print key parameters at STC ---
 fprintf('\n--- STC Results (G=1000, T=25°C) ---\n');
 G_stc = 1000;    % Standard Test Condition irradiance [W/m²]
 T_stc = 298.15;  % Standard Test Condition temperature [K] (25°C)
