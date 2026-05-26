@@ -75,7 +75,7 @@ function plot_temp_family(p)
     xlabel('Voltage V (V)', 'FontSize', 12);
     ylabel('Current I (A)', 'FontSize', 12);
     title('I-V Characteristics', 'FontSize', 13, 'FontWeight', 'bold');
-    legend('Location','southeast','FontSize',10);
+    legend('Location','southwest','FontSize',10);
     xlim([0, Voc_max * 1.08]);
     ylim([0, max(cellfun(@max, I_all)) * 1.1]);
     set(ax1, 'FontSize', 11);
