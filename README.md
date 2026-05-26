@@ -82,7 +82,7 @@ $R_s$ and $R_{sh}$ were derived by simultaneously satisfying the MPP power condi
 ## Repository Structure
 
 ```
-pv-matlab-bangladesh/
+solarmodel-kc200gt-matlab/
 ├── main_iv_curves.m        ← Master script — run this to generate all outputs
 ├── params_KC200GT.m        ← Module datasheet parameters
 ├── compute_io.m            ← Diode saturation current (simplified model)
