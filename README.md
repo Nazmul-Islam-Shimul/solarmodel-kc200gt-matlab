@@ -51,7 +51,7 @@ where:
 
 Because $I$ appears on both sides, the equation has no closed-form solution. Newton-Raphson iteration converges to machine precision (tolerance $|ΔI| < 10^{-9}$ A) in under 10 iterations for all operating points tested.
 
-**Note on $I_o$ approximation:** The saturation current is derived from the single operating-point relation above rather than the full temperature-dependent model ($I_o \propto T^3 \exp(-E_g/kT)$). This is a standard undergraduate approximation (Tamrakar et al., 2015) that produces accurate I-V curve shape and MPP estimation across the 0–75°C range used here.
+**Note on $I_o$ approximation:** The saturation current is derived from the single operating-point relation above rather than the full temperature-dependent model (Io ∝ T³·exp(−Eg/kT)). This is a standard undergraduate approximation (Tamrakar et al., 2015) that produces accurate I-V curve shape and MPP estimation across the 0–75°C range used here.
 
 **Temperature corrections** applied per-sweep iteration:
 
