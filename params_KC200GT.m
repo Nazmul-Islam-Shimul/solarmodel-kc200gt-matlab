@@ -1,5 +1,5 @@
 
-% Source: Kyocera KC200GT datasheet
+% Source: Villalva et al. (2009), IEEE Trans. Power Electronics, 24(5)
 % STC: G = 1000 W/m², T = 25°C, AM1.5
 
 function p = params_KC200GT()
