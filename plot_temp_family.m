@@ -12,7 +12,7 @@ function plot_temp_family(p)
     % Pre-compute maximum open-circuit voltage for x-axis headroom
     Voc_max = p.Voc + beta_Voc * (min(T_celsius) - 25);
 
-    % --- Issue 3 Fix: Pre-allocate Cell Arrays for Data Storage ---
+    % Pre-allocate Cell Arrays for Data Storage ---
     V_all    = cell(1, length(T_celsius));
     I_all    = cell(1, length(T_celsius));
     P_all    = cell(1, length(T_celsius));
