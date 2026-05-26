@@ -12,9 +12,9 @@ function plot_iv_family(p)
               0.09 0.37 0.64;
               0.05 0.27 0.45];
 
-    % =========================================================
+  
     % 1. COMPUTATION PHASE — solver runs only 2,500 times total
-    % =========================================================
+
     V_all    = cell(1, length(G_levels));
     I_all    = cell(1, length(G_levels));
     P_all    = cell(1, length(G_levels));
@@ -38,9 +38,9 @@ function plot_iv_family(p)
         [all_Pmax(gi), mpp_idx(gi)] = max(P_all{gi});
     end
 
-    % =========================================================
+   
     % 2. VISUALIZATION PHASE — pure plotting, no physics calls
-    % =========================================================
+ 
     figure('Name','I-V and P-V Curves — Irradiance Sweep',...
            'Color','white','Position',[100 100 1100 480]);
 
@@ -66,7 +66,7 @@ function plot_iv_family(p)
     ylim([0, p.Isc * 1.1]);
     set(ax1, 'FontSize', 11);
 
-    % --- Right subplot: P-V curves ---
+    % Right subplot: P-V curves ---
     ax2 = subplot(1,2,2);
     hold on; grid on; box on;
 
