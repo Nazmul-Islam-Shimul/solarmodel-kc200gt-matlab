@@ -116,7 +116,7 @@ main_iv_curves.m
 
 ```matlab
 % Clone or download the repository, then in MATLAB:
-cd pv-matlab-bangladesh
+cd solarmodel-kc200gt-matlab
 main_iv_curves
 ```
 
@@ -174,9 +174,3 @@ This ensures the solver runs exactly 2,500 times per sweep (500 voltage points Ã
 2. Tamrakar, V., Gupta, S. C., & Sawle, Y. (2015). Single-diode and two-diode PV cell modeling using MATLAB for studying characteristics of solar cell under varying conditions. *Electrical & Computer Engineering: An International Journal (ECIJ)*, 4(2).
 
 3. Kyocera Corporation. KC200GT High Efficiency Multicrystal Photovoltaic Module â€” Datasheet.
-
----
-
-## Context
-
-This simulation was developed as Project 1 of an independent energy systems modeling series, undertaken alongside thesis research on ML-based natural gas production decline forecasting at JUST. The KC200GT was selected as the reference module due to its extensive benchmark use in PV simulation literature, enabling direct comparison of results against Villalva et al. (2009).
